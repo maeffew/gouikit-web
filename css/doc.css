@@ -1,0 +1,52 @@
+.main-wrapper {
+  padding: 100px 0;
+}
+
+.side-menu {
+  padding: 20px;
+  background: #f7f7f7;
+  top: 20px;
+  max-height: 80vh;
+  overflow-y: scroll;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.side-menu ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.side-menu ul li {
+  text-transform: uppercase;
+}
+
+.side-menu ul li:not(:last-child) {
+  padding-bottom: 10px;
+}
+
+.side-menu ul li a {
+  color: #313131;
+}
+
+.content-div h4 {
+  margin-top: 30px;
+}
+
+.content-div .contents {
+  margin: 20px 0;
+}
+
+.content-div .contents .bootstrap-switch {
+  margin-right: 20px;
+}
+
+.content-div.buttons button {
+  margin-right: 7px;
+}
+
+.content-div .custom-control {
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=maps/doc.css.map */
